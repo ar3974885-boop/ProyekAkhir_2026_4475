@@ -14,38 +14,47 @@
 /* TODO CSS-01: Atur jenis font, warna teks, warna latar belakang,
    margin, dan padding dasar halaman. */
 body {
-font-family: Arial, sans-serif;
-color: aquamarine;
-background-color: #404c3b;
-margin: auto;
-padding: 20px;
+  font-family: Arial, sans-serif;
+  color: aquamarine;
+  background-color: #404c3b;
+  margin: auto;
+  padding: 20px;
 }
 
 /* TODO CSS-02: Atur lebar konten, posisi, padding, margin,
    border dan border-radius seperlunya. */
 .container {
-width: 2%;
-position: absolute;
-padding: 20px;
-margin: auto;
-border: hitam;
-border-radius: 0%;
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  margin: auto;
+  border: hitam;
+  border-radius: 10px;
 }
 
 .kepala-halaman {
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 15px;
 }
 
 .panel {
+  background-color: #404c3b;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: #404c3b;
+  border-radius: 10px;
 }
 
 /* TODO CSS-03: Atur ukuran input, padding, jarak antar elemen,
    warna tombol, dan tampilan yang konsisten. */
 .form-baris {
-padding: 18px;
-width: auto;
+  padding: 18px;
+  width: auto;
 }
 
 .form-baris label {
+  display: inline;
 }
 
 .form-baris input {
@@ -69,10 +78,18 @@ width: auto;
 }
 
 #pesanStatus {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-color: 10px;
 }
 
 #pesanStatus.berhasil {
+  color: blue;
+  background-color: aliceblue;
 }
 
 #pesanStatus.gagal {
+  color: #ef1515;
+  background-color: aliceblue;
 }
